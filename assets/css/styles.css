@@ -53,8 +53,18 @@ a {
 
 /* Header */
 
-.header {
+.fixed-header {
+    background: #e6f0ff;
+    padding-top: 2.6rem;
+    position: sticky;
+    top: -2.6rem;
+    z-index: 1;
+}
+
+.hero-wrap {
     position: relative;
+    display: flex;
+    flex-direction: column;
     height: 100vh;
     background: #e6f0ff;
 }
@@ -62,7 +72,8 @@ a {
 .navbar {
     display: flex;
     align-items: center;
-    padding-top: 3.8rem;
+    padding: 1.2rem 0;
+    /* padding-top: 3.8rem; */
 }
 
 .navbar ul {
