@@ -65,7 +65,7 @@ a {
     position: relative;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: calc(100vh - 9rem);
     background: #e6f0ff;
 }
 
