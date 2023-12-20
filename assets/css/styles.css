@@ -652,6 +652,11 @@ a {
     width: 2.8rem;
     height: 2.8rem;
     border-radius: 0.3rem;
+    background: #f9f9f9;
+}
+
+.footer .social-link:not(.footer .social-link:first-child) {
+    margin-left: 1.6rem;
 }
 
 .footer .social-link:hover {
