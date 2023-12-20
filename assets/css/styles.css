@@ -68,6 +68,7 @@ a {
 
 .hero-wrap {
     position: relative;
+    justify-content: center;
     display: flex;
     flex-direction: column;
     height: calc(100vh - 9rem);
@@ -113,17 +114,13 @@ a {
     margin-left: 1.8rem;
 }
 
-/* Hero */
+/* hero-wrap */
 
-.hero {
-    margin-top: 13rem;
-}
-
-.hero .info {
+.hero-wrap .info {
     width: 51%;
 }
 
-.hero .sub-title {
+.hero-wrap .sub-title {
     font-size: 1.8rem;
     font-weight: 500;
     line-height: 1.5;
@@ -132,7 +129,7 @@ a {
     color: #687690;
 }
 
-.hero .title {
+.hero-wrap .title {
     margin-top: 0.8rem;
     font-size: 6.2rem;
     font-weight: 700;
@@ -141,7 +138,7 @@ a {
     text-align: left;
 }
 
-.hero .desc {
+.hero-wrap .desc {
     font-family: Poppins;
     font-size: 1.8rem;
     font-weight: 400;
@@ -151,7 +148,7 @@ a {
     color: #5a6473;
 }
 
-.hero .hero-cta {
+.hero-wrap .hero-cta {
     min-width: 17rem;
     margin-top: 4rem;
 }
